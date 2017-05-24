@@ -1,0 +1,340 @@
+2017-05-22 11:09:45.071 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 11:09:48.456 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 11:09:48.456 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 11:09:48.628 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 11:10:06.402 -05:00 [Debug] Received 4935 inbound position messages.
+2017-05-22 11:10:06.402 -05:00 [Debug] TruckID:60090
+2017-05-22 11:10:06.402 -05:00 [Debug] TruckID:41990
+2017-05-22 11:10:06.402 -05:00 [Debug] TruckID:60011
+2017-05-22 11:10:06.402 -05:00 [Debug] TruckID:60077
+2017-05-22 11:10:06.402 -05:00 [Debug] TruckID:60078A
+2017-05-22 11:10:06.402 -05:00 [Debug] TruckID:43742
+2017-05-22 11:10:06.402 -05:00 [Debug] TruckID:43525
+2017-05-22 11:10:06.402 -05:00 [Debug] TruckID:42097
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:43684
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:43734
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:43573
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:42636
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:43475
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:40170
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:60070
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:43751
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:60018
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:42310
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:60072
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:659044
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:42199A
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:60031A
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:60059
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:60102B
+2017-05-22 11:10:06.418 -05:00 [Debug] TruckID:42647
+2017-05-22 11:10:06.762 -05:00 [Debug] Successfully updated last max received index from 22654 to 28521.
+2017-05-22 11:10:06.809 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 11:10:07.168 -05:00 [Debug] Successfully mapped new position data. result:11
+2017-05-22 11:10:07.168 -05:00 [Debug] TruckID:"60090"
+2017-05-22 11:10:07.168 -05:00 [Debug] 	"60090":278201553
+2017-05-22 11:10:07.168 -05:00 [Debug] TruckID:"41990"
+2017-05-22 11:10:07.168 -05:00 [Debug] 	"41990":365389014
+2017-05-22 11:10:07.168 -05:00 [Debug] 	"41990":370484289
+2017-05-22 11:10:07.168 -05:00 [Debug] 	"41990":382078426
+2017-05-22 11:10:07.168 -05:00 [Debug] 	"41990":398056580
+2017-05-22 11:10:07.168 -05:00 [Debug] TruckID:"60011"
+2017-05-22 11:10:07.168 -05:00 [Debug] 	"60011":320544520
+2017-05-22 11:10:07.168 -05:00 [Debug] TruckID:"60077"
+2017-05-22 11:10:07.168 -05:00 [Debug] 	"60077":347625956
+2017-05-22 11:10:07.168 -05:00 [Debug] Ending LTLTrack Service. result:11
+2017-05-22 11:14:41.099 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 11:14:41.271 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 11:14:41.271 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 11:14:41.271 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 11:14:44.787 -05:00 [Debug] Received 12 inbound position messages.
+2017-05-22 11:14:44.787 -05:00 [Debug] TruckID:60090
+2017-05-22 11:14:44.787 -05:00 [Debug] TruckID:40170
+2017-05-22 11:14:44.787 -05:00 [Debug] TruckID:42310
+2017-05-22 11:14:44.787 -05:00 [Debug] TruckID:43573
+2017-05-22 11:14:44.958 -05:00 [Debug] Successfully updated last max received index from 28521 to 28533.
+2017-05-22 11:14:44.990 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 11:14:45.146 -05:00 [Debug] Successfully mapped new position data. result:2
+2017-05-22 11:14:45.146 -05:00 [Debug] TruckID:"60090"
+2017-05-22 11:14:45.146 -05:00 [Debug] 	"60090":278201553
+2017-05-22 11:14:45.146 -05:00 [Debug] Ending LTLTrack Service. result:2
+2017-05-22 11:19:41.130 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 11:19:41.318 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 11:19:41.318 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 11:19:41.318 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 11:19:45.380 -05:00 [Debug] Received 4 inbound position messages.
+2017-05-22 11:19:45.396 -05:00 [Debug] TruckID:43751
+2017-05-22 11:19:45.396 -05:00 [Debug] TruckID:60031A
+2017-05-22 11:19:45.568 -05:00 [Debug] Successfully updated last max received index from 28533 to 28538.
+2017-05-22 11:19:45.615 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 11:19:45.693 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 11:19:45.693 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 11:24:41.113 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 11:24:41.284 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 11:24:41.284 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 11:24:41.301 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 11:24:44.675 -05:00 [Debug] Received 5 inbound position messages.
+2017-05-22 11:24:44.691 -05:00 [Debug] TruckID:60102B
+2017-05-22 11:24:44.691 -05:00 [Debug] TruckID:60059
+2017-05-22 11:24:44.847 -05:00 [Debug] Successfully updated last max received index from 28538 to 28543.
+2017-05-22 11:24:44.878 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 11:24:44.972 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 11:24:44.972 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 11:29:41.156 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 11:29:41.328 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 11:29:41.328 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 11:29:41.328 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 11:29:44.688 -05:00 [Debug] Received 5 inbound position messages.
+2017-05-22 11:29:44.688 -05:00 [Debug] TruckID:43475
+2017-05-22 11:29:44.688 -05:00 [Debug] TruckID:42647
+2017-05-22 11:29:44.860 -05:00 [Debug] Successfully updated last max received index from 28543 to 28549.
+2017-05-22 11:29:44.906 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 11:29:44.985 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 11:29:44.985 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 11:34:41.105 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 11:34:41.261 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 11:34:41.261 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 11:34:41.277 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 11:34:44.636 -05:00 [Debug] Received 12 inbound position messages.
+2017-05-22 11:34:44.636 -05:00 [Debug] TruckID:60090
+2017-05-22 11:34:44.636 -05:00 [Debug] TruckID:42647
+2017-05-22 11:34:44.636 -05:00 [Debug] TruckID:40170
+2017-05-22 11:34:44.636 -05:00 [Debug] TruckID:42310
+2017-05-22 11:34:44.636 -05:00 [Debug] TruckID:43573
+2017-05-22 11:34:44.840 -05:00 [Debug] Successfully updated last max received index from 28549 to 28561.
+2017-05-22 11:34:44.886 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 11:34:45.027 -05:00 [Debug] Successfully mapped new position data. result:2
+2017-05-22 11:34:45.027 -05:00 [Debug] TruckID:"60090"
+2017-05-22 11:34:45.027 -05:00 [Debug] 	"60090":278201553
+2017-05-22 11:34:45.027 -05:00 [Debug] Ending LTLTrack Service. result:2
+2017-05-22 11:39:44.656 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 11:39:47.753 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 11:39:47.753 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 11:39:47.893 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 11:40:00.412 -05:00 [Debug] Received 7 inbound position messages.
+2017-05-22 11:40:00.412 -05:00 [Debug] TruckID:43751
+2017-05-22 11:40:00.881 -05:00 [Debug] Successfully updated last max received index from 28561 to 28570.
+2017-05-22 11:40:00.928 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 11:40:01.537 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 11:40:01.537 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 11:44:41.108 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 11:44:41.279 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 11:44:41.279 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 11:44:41.279 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 11:44:44.686 -05:00 [Debug] Received 10 inbound position messages.
+2017-05-22 11:44:44.686 -05:00 [Debug] TruckID:60031A
+2017-05-22 11:44:44.686 -05:00 [Debug] TruckID:60102B
+2017-05-22 11:44:44.686 -05:00 [Debug] TruckID:60059
+2017-05-22 11:44:44.858 -05:00 [Debug] Successfully updated last max received index from 28570 to 28580.
+2017-05-22 11:44:44.904 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 11:44:44.983 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 11:44:44.983 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 11:49:41.112 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 11:49:41.300 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 11:49:41.300 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 11:49:41.300 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 11:49:45.081 -05:00 [Debug] Received 5 inbound position messages.
+2017-05-22 11:49:45.081 -05:00 [Debug] TruckID:60031A
+2017-05-22 11:49:45.081 -05:00 [Debug] TruckID:43475
+2017-05-22 11:49:45.270 -05:00 [Debug] Successfully updated last max received index from 28580 to 28585.
+2017-05-22 11:49:45.316 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 11:49:45.394 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 11:49:45.394 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 11:54:41.125 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 11:54:41.265 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 11:54:41.265 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 11:54:41.281 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 11:54:44.593 -05:00 [Debug] Received 5 inbound position messages.
+2017-05-22 11:54:44.593 -05:00 [Debug] TruckID:60090
+2017-05-22 11:54:44.593 -05:00 [Debug] TruckID:42310
+2017-05-22 11:54:44.593 -05:00 [Debug] TruckID:43573
+2017-05-22 11:54:44.765 -05:00 [Debug] Successfully updated last max received index from 28585 to 28591.
+2017-05-22 11:54:44.812 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 11:54:44.984 -05:00 [Debug] Successfully mapped new position data. result:2
+2017-05-22 11:54:44.984 -05:00 [Debug] TruckID:"60090"
+2017-05-22 11:54:44.984 -05:00 [Debug] 	"60090":278201553
+2017-05-22 11:54:45.000 -05:00 [Debug] Ending LTLTrack Service. result:2
+2017-05-22 11:59:41.115 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 11:59:41.365 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 11:59:41.365 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 11:59:41.365 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 11:59:44.771 -05:00 [Debug] Received 5 inbound position messages.
+2017-05-22 11:59:44.771 -05:00 [Debug] TruckID:43751
+2017-05-22 11:59:44.943 -05:00 [Debug] Successfully updated last max received index from 28591 to 28596.
+2017-05-22 11:59:44.976 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 11:59:45.052 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 11:59:45.052 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 12:04:41.113 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 12:04:41.270 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 12:04:41.270 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 12:04:41.285 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 12:04:44.691 -05:00 [Debug] Received 5 inbound position messages.
+2017-05-22 12:04:44.691 -05:00 [Debug] TruckID:60102B
+2017-05-22 12:04:44.863 -05:00 [Debug] Successfully updated last max received index from 28596 to 28601.
+2017-05-22 12:04:44.910 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 12:04:44.988 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 12:04:44.988 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 12:09:41.102 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 12:09:41.258 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 12:09:41.258 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 12:09:41.258 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 12:09:44.621 -05:00 [Debug] Received 7 inbound position messages.
+2017-05-22 12:09:44.621 -05:00 [Debug] TruckID:60059
+2017-05-22 12:09:44.621 -05:00 [Debug] TruckID:60031A
+2017-05-22 12:09:44.621 -05:00 [Debug] TruckID:43475
+2017-05-22 12:09:44.621 -05:00 [Debug] TruckID:43684
+2017-05-22 12:09:44.793 -05:00 [Debug] Successfully updated last max received index from 28601 to 28608.
+2017-05-22 12:09:44.828 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 12:09:44.903 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 12:09:44.903 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 12:14:41.097 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 12:14:41.254 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 12:14:41.254 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 12:14:41.269 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 12:14:44.613 -05:00 [Debug] Received 6 inbound position messages.
+2017-05-22 12:14:44.613 -05:00 [Debug] TruckID:60090
+2017-05-22 12:14:44.613 -05:00 [Debug] TruckID:42310
+2017-05-22 12:14:44.801 -05:00 [Debug] Successfully updated last max received index from 28608 to 28614.
+2017-05-22 12:14:44.832 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 12:14:44.989 -05:00 [Debug] Successfully mapped new position data. result:2
+2017-05-22 12:14:44.989 -05:00 [Debug] TruckID:"60090"
+2017-05-22 12:14:44.989 -05:00 [Debug] 	"60090":278201553
+2017-05-22 12:14:44.989 -05:00 [Debug] Ending LTLTrack Service. result:2
+2017-05-22 12:19:41.113 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 12:19:41.284 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 12:19:41.284 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 12:19:41.300 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 12:19:45.097 -05:00 [Debug] Received 9 inbound position messages.
+2017-05-22 12:19:45.097 -05:00 [Debug] TruckID:43573
+2017-05-22 12:19:45.097 -05:00 [Debug] TruckID:40170
+2017-05-22 12:19:45.097 -05:00 [Debug] TruckID:43751
+2017-05-22 12:19:45.300 -05:00 [Debug] Successfully updated last max received index from 28614 to 28624.
+2017-05-22 12:19:45.363 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 12:19:45.441 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 12:19:45.441 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 12:24:41.097 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 12:24:41.253 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 12:24:41.253 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 12:24:41.269 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 12:24:44.566 -05:00 [Debug] Received 6 inbound position messages.
+2017-05-22 12:24:44.737 -05:00 [Debug] Successfully updated last max received index from 28624 to 28631.
+2017-05-22 12:24:44.784 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 12:24:44.847 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 12:24:44.847 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 12:29:41.117 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 12:29:41.289 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 12:29:41.305 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 12:29:41.305 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 12:29:44.805 -05:00 [Debug] Received 7 inbound position messages.
+2017-05-22 12:29:44.805 -05:00 [Debug] TruckID:60102B
+2017-05-22 12:29:44.805 -05:00 [Debug] TruckID:60031A
+2017-05-22 12:29:44.805 -05:00 [Debug] TruckID:43475
+2017-05-22 12:29:44.805 -05:00 [Debug] TruckID:60085A
+2017-05-22 12:29:44.977 -05:00 [Debug] Successfully updated last max received index from 28631 to 28638.
+2017-05-22 12:29:45.008 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 12:29:45.086 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 12:29:45.086 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 12:34:41.120 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 12:34:41.307 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 12:34:41.307 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 12:34:41.307 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 12:34:44.807 -05:00 [Debug] Received 7 inbound position messages.
+2017-05-22 12:34:44.807 -05:00 [Debug] TruckID:43684
+2017-05-22 12:34:44.807 -05:00 [Debug] TruckID:60090
+2017-05-22 12:34:44.963 -05:00 [Debug] Successfully updated last max received index from 28638 to 28645.
+2017-05-22 12:34:45.010 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 12:34:45.151 -05:00 [Debug] Successfully mapped new position data. result:2
+2017-05-22 12:34:45.151 -05:00 [Debug] TruckID:"60090"
+2017-05-22 12:34:45.151 -05:00 [Debug] 	"60090":278201553
+2017-05-22 12:34:45.151 -05:00 [Debug] Ending LTLTrack Service. result:2
+2017-05-22 12:39:41.115 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 12:39:41.287 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 12:39:41.287 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 12:39:41.287 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 12:39:45.226 -05:00 [Debug] Received 11 inbound position messages.
+2017-05-22 12:39:45.226 -05:00 [Debug] TruckID:40170
+2017-05-22 12:39:45.414 -05:00 [Debug] Successfully updated last max received index from 28645 to 28658.
+2017-05-22 12:39:45.461 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 12:39:45.539 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 12:39:45.539 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 12:44:41.120 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 12:44:41.292 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 12:44:41.292 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 12:44:41.292 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 12:44:44.574 -05:00 [Debug] Received 9 inbound position messages.
+2017-05-22 12:44:44.574 -05:00 [Debug] TruckID:60059
+2017-05-22 12:44:44.574 -05:00 [Debug] TruckID:60077
+2017-05-22 12:44:44.745 -05:00 [Debug] Successfully updated last max received index from 28658 to 28667.
+2017-05-22 12:44:44.792 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 12:44:44.949 -05:00 [Debug] Successfully mapped new position data. result:2
+2017-05-22 12:44:44.949 -05:00 [Debug] TruckID:"60077"
+2017-05-22 12:44:44.949 -05:00 [Debug] 	"60077":347625956
+2017-05-22 12:44:44.949 -05:00 [Debug] Ending LTLTrack Service. result:2
+2017-05-22 12:49:41.121 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 12:49:41.293 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 12:49:41.293 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 12:49:41.293 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 12:49:44.965 -05:00 [Debug] Received 5 inbound position messages.
+2017-05-22 12:49:44.965 -05:00 [Debug] TruckID:60102B
+2017-05-22 12:49:44.965 -05:00 [Debug] TruckID:60031A
+2017-05-22 12:49:44.965 -05:00 [Debug] TruckID:43475
+2017-05-22 12:49:45.137 -05:00 [Debug] Successfully updated last max received index from 28667 to 28673.
+2017-05-22 12:49:45.184 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 12:49:45.262 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 12:49:45.262 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 12:54:41.126 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 12:54:41.282 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 12:54:41.282 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 12:54:41.282 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 12:54:44.579 -05:00 [Debug] Received 5 inbound position messages.
+2017-05-22 12:54:44.594 -05:00 [Debug] TruckID:43684
+2017-05-22 12:54:44.751 -05:00 [Debug] Successfully updated last max received index from 28673 to 28678.
+2017-05-22 12:54:44.798 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 12:54:44.876 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 12:54:44.876 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 12:59:41.099 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 12:59:41.286 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 12:59:41.286 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 12:59:41.286 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 12:59:44.617 -05:00 [Debug] Received 6 inbound position messages.
+2017-05-22 12:59:44.617 -05:00 [Debug] TruckID:60090
+2017-05-22 12:59:44.633 -05:00 [Debug] TruckID:40170
+2017-05-22 12:59:44.633 -05:00 [Debug] TruckID:60085A
+2017-05-22 12:59:44.805 -05:00 [Debug] Successfully updated last max received index from 28678 to 28686.
+2017-05-22 12:59:44.836 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 12:59:44.992 -05:00 [Debug] Successfully mapped new position data. result:2
+2017-05-22 12:59:45.008 -05:00 [Debug] TruckID:"60090"
+2017-05-22 12:59:45.008 -05:00 [Debug] 	"60090":278201553
+2017-05-22 12:59:45.008 -05:00 [Debug] Ending LTLTrack Service. result:2
+2017-05-22 13:04:41.099 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 13:04:41.255 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 13:04:41.255 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 13:04:41.255 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 13:04:44.770 -05:00 [Debug] Received 9 inbound position messages.
+2017-05-22 13:04:44.770 -05:00 [Debug] TruckID:60059
+2017-05-22 13:04:44.942 -05:00 [Debug] Successfully updated last max received index from 28686 to 28699.
+2017-05-22 13:04:44.977 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 13:04:45.052 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 13:04:45.052 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 13:09:41.109 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 13:09:41.265 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 13:09:41.265 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 13:09:41.265 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 13:09:44.859 -05:00 [Debug] Received 5 inbound position messages.
+2017-05-22 13:09:44.859 -05:00 [Debug] TruckID:60102B
+2017-05-22 13:09:44.859 -05:00 [Debug] TruckID:43475
+2017-05-22 13:09:44.859 -05:00 [Debug] TruckID:60031A
+2017-05-22 13:09:45.031 -05:00 [Debug] Successfully updated last max received index from 28699 to 28704.
+2017-05-22 13:09:45.065 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 13:09:45.140 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 13:09:45.156 -05:00 [Debug] Ending LTLTrack Service. result:0
+2017-05-22 13:14:41.186 -05:00 [Debug] Starting LTLTrack Service
+2017-05-22 13:14:41.389 -05:00 [Debug] LTLTrackService has been instantiated.
+2017-05-22 13:14:41.389 -05:00 [Debug] RandPositionService has been created.
+2017-05-22 13:14:41.404 -05:00 [Debug] Getting updated position data from Rand McNally.
+2017-05-22 13:14:44.842 -05:00 [Debug] Received 5 inbound position messages.
+2017-05-22 13:14:44.842 -05:00 [Debug] TruckID:43684
+2017-05-22 13:14:44.998 -05:00 [Debug] Successfully updated last max received index from 28704 to 28709.
+2017-05-22 13:14:45.045 -05:00 [Debug] Mapping position data by TruckID to active pros.
+2017-05-22 13:14:45.139 -05:00 [Debug] Successfully mapped new position data. result:0
+2017-05-22 13:14:45.139 -05:00 [Debug] Ending LTLTrack Service. result:0

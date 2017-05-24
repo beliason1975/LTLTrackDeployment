@@ -1,0 +1,1 @@
+--  DELETE FROM dbo.Pro WHERE PK_Pro NOT IN (SELECT Pro FROM dbo.ProDataWH GROUP BY Pro);

@@ -1,0 +1,19 @@
+{
+    "name": "ps-scripts",
+    "version": "1.0.0",
+    "description": "node-powershell script runner for LTLTrack",
+    "main": "RefreshProDataWH.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "ltltrack"
+    ],
+    "author": "bryan eliason",
+    "license": "ISC",
+    "dependencies": {
+        "jshint": "^2.9.4",
+        "node-powershell": "^3.1.1"
+    },
+    "devDependencies": {}
+}
