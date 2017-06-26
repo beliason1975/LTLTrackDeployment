@@ -8,10 +8,11 @@ var ps = new shell({ executionPolicy: 'Bypass', debugMsg: true });
 
 var SERVER_OFFSQLENTD01 = "OFFSQLENTD01";
 var SERVER_OFFSQLSTDD01 = "OFFSQLSTDD01";
-var DATABASE_COYOTE = "CoyoteDataWarehouse";
-var DATABASE_LTLTRACK = "LTLTrack";
+var DATABASE_COYOTE = "COYOTE";
+var DATABASE_MCLEOD = "McLeodData_LTL"
+var DATABASE_LTLTRACK = "LTLTrack_Dev";
 var TABLE_PRODATAWH = "ProDataWH";
-var SCHEMA = "dbo";
+var DEFAULT_SCHEMA = "dbo";
 // var TABLE_PRO = "Pro";
 // var TABLE_PROTRUCK = "ProTruck";
 // var PROCESS_CHANGES = "y";
@@ -25,7 +26,7 @@ var property = {
     name: 'yesno',
     message: 'Enter y to process changes or enter n to start new',
     validator: /^(y|Y)|(n|N)$/,
-    warning: 'Must respond [y]es or [n]o',
+    warning: 'Must respond [y] or [n]',
     default: 'y'
 };
 
@@ -35,7 +36,7 @@ function onErr(err) {
 }
 
 function ProcessChangesOnly() {
-    ps.addCommand('./ps-scripts/Truncate_Table_ProDataWH.ps1', [
+    ps.addCommand('.\\ps-scripts\\Truncate_Table_ProDataWH.ps1', [
         { name: 'server', value: SERVER_OFFSQLSTDD01 },
         { name: 'database', value: DATABASE_LTLTRACK }
     ]);
@@ -44,10 +45,10 @@ function ProcessChangesOnly() {
 }
 
 function ProcessNewDatabase() {
-    ps.addCommand('./ps-scripts/Truncate_All_LTLTrack_Tables.ps1', [
+    ps.addCommand('.\\ps-scripts\\Truncate_All_LTLTrack_Tables.ps1', [
         { name: 'server', value: SERVER_OFFSQLSTDD01 },
         { name: 'database', value: DATABASE_LTLTRACK },
-        { name: 'inputFile', value: './sql/TruncateLTLTables.sql' }
+        { name: 'inputFile', value: '.\\sql\\TruncateLTLTables.sql' }
     ]);
 
     return ps.invoke();
@@ -87,72 +88,75 @@ prompt.get(property, function(err, result) {
 });
 
 function RunScripts(output) {
-    ps.addCommand('$a = "Begin running powershell scripts for LTLTrack&Trace."');
-    ps.addCommand('$a')
-        .then(function() {
+    ps.addCommand('Write-Host "Starting powershell scripts for LTLTrack&Trace."');
+    ps.invoke()
+        .then(output => {
             console.log(output);
-            return ps.invoke();
-        })
-        .then(function(output) {
-            console.log(output);
-
-            ps.addCommand('./ps-scripts/Insert_Into_ProDataWH_CoyoteData.ps1', [
+            ps.addCommand('.\\ps-scripts\\Insert_Into_ProDataWH_CoyoteData.ps1', [
                 { name: 'server', value: SERVER_OFFSQLENTD01 },
                 { name: 'database', value: DATABASE_COYOTE },
-                { name: 'inputFile', value: './sql/RefreshProDataWH.sql' },
+                { name: 'inputFile', value: '.\\sql\\RefreshProDataWH_OpenQuery.sql' },
                 { name: 'outServer', value: SERVER_OFFSQLSTDD01 },
                 { name: 'outDatabase', value: DATABASE_LTLTRACK },
                 { name: 'outTable', value: TABLE_PRODATAWH },
-                { name: 'schema', value: SCHEMA }
+                { name: 'schema', value: DEFAULT_SCHEMA }
             ]);
-
-            return ps.invoke();
+            ps.invoke()
+                .then(output => {
+                    console.log(output);
+                    ps.addCommand('.\\ps-scripts\\Insert_New_Pros.ps1', [
+                        { name: 'server', value: SERVER_OFFSQLSTDD01 },
+                        { name: 'database', value: DATABASE_LTLTRACK },
+                        { name: 'inputFile', value: '.\\sql\\InsertNewPros.sql' }
+                    ]);
+                    ps.invoke()
+                        .then(output => {
+                            console.log(output);
+                            ps.addCommand('.\\ps-scripts\\Insert_New_ProTrucks.ps1', [
+                                { name: 'server', value: SERVER_OFFSQLSTDD01 },
+                                { name: 'database', value: DATABASE_LTLTRACK },
+                                { name: 'inputFile', value: '.\\sql\\InsertNewProTrucks.sql' }
+                            ]);
+                            ps.invoke()
+                                .then(output => {
+                                    console.log(output);
+                                    ps.addCommand('.\\ps-scripts\\Set_Flag_Non_Active_ProTrucks.ps1', [
+                                        { name: 'server', value: SERVER_OFFSQLSTDD01 },
+                                        { name: 'database', value: DATABASE_LTLTRACK },
+                                        { name: 'inputFile', value: '.\\sql\\SetFlagNonActiveProTrucks.sql' }
+                                    ]);
+                                    ps.invoke()
+                                        .then(output => {
+                                            console.log(output);
+                                            console.log('History:' + ps.history);
+                                            ps.dispose();
+                                        })
+                                        .catch(err => {
+                                            console.log(err);
+                                            ps.dispose();
+                                        });
+                                })
+                                .catch(err => {
+                                    console.log(err);
+                                    ps.dispose();
+                                })
+                        })
+                        .catch(err => {
+                            console.log(err);
+                            ps.dispose();
+                        })
+                })
+                .catch(err => {
+                    console.log(err);
+                    ps.dispose();
+                })
         })
-        .then(function(output) {
-            console.log(output);
-
-            ps.addCommand('./ps-scripts/Insert_New_Pros.ps1', [
-                { name: 'server', value: SERVER_OFFSQLSTDD01 },
-                { name: 'database', value: DATABASE_LTLTRACK },
-                { name: 'inputFile', value: './sql/InsertNewPros.sql' }
-            ]);
-
-            return ps.invoke();
-        })
-        .then(function(output) {
-            console.log(output);
-
-            ps.addCommand('./ps-scripts/Insert_New_ProTrucks.ps1', [
-                { name: 'server', value: SERVER_OFFSQLSTDD01 },
-                { name: 'database', value: DATABASE_LTLTRACK },
-                { name: 'inputFile', value: './sql/InsertNewProTrucks.sql' }
-            ]);
-
-            return ps.invoke();
-        })
-        .then(function(output) {
-            console.log(output);
-
-            ps.addCommand('./ps-scripts/Set_Flag_Non_Active_ProTrucks.ps1', [
-                { name: 'server', value: SERVER_OFFSQLSTDD01 },
-                { name: 'database', value: DATABASE_LTLTRACK },
-                { name: 'inputFile', value: './sql/SetFlagNonActiveProTrucks.sql' }
-            ]);
-
-            return ps.invoke();
-        })
-        // .then(function(output) {
-        //     console.log(output);
-        //     ps.addCommand('./ps-scripts/StartPositionUpdater.ps1');
-        //     return ps.invoke();
-        // })
-        .then(function(output) {
-            console.log(output);
-            console.log('History:' + ps.history);
-            ps.dispose();
-        })
-        .catch(function(err) {
+        .catch(err => {
             console.log(err);
             ps.dispose();
-        });
+        })
 }
+// .catch(err => {
+//     console.log(err);
+//     ps.dispose();
+// })

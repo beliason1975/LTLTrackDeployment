@@ -32,7 +32,7 @@ CREATE TABLE [dbo].[ProDataWH](
 	[Tractor] [varchar](50) NOT NULL,
 	[BOL] [varchar](50) NULL,
 	[PONumber] [varchar](50) NULL,
-	[Pickup#] [int] NULL,
+	[PickupNumber] [int] NULL,
 	[ApptDate] [datetime2](7) NULL,
 	[EstDeliveryDate] [datetime2](7) NULL,
 	[DeliveredDate] [datetime2](7) NULL

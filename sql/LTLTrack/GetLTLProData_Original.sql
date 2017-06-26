@@ -120,7 +120,7 @@ BEGIN
 		, #manifests.BATRKR AS Tractor
 		, PROHDR.AJBLNO AS BOL
 		, PROHDR.AJPONO AS PONumber
-		, pickups_cte.DLPUNO AS Pickup#
+		, pickups_cte.DLPUNO AS PickupNumber
 		, APPT.BSDATE AS ApptDate
 		, dueStatus_cte.estDeliveryDate AS EstDeliveryDate
 		, APPT.BSDLDT AS DeliveredDate
@@ -193,7 +193,7 @@ BEGIN
 			, Tractor
 			, BOL
 			, PONumber
-			, Pickup#
+			, PickupNumber
 			, ApptDate
 			, EstDeliveryDate
 			, DeliveredDate
@@ -221,7 +221,7 @@ BEGIN
 		, Tractor
 		, BOL
 		, PONumber
-		, Pickup#
+		, PickupNumber
 		, CAST(CAST(apptDate AS VARCHAR(10)) AS DATE) AS ApptDate
 		, CAST(CAST(estDeliveryDate AS VARCHAR(10)) AS DATE) AS EstDeliveryDate
 		, CASE WHEN DeliveredDate <> 0
