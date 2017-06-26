@@ -1,0 +1,14 @@
+{
+  "name": "ps-scripts",
+  "version": "1.0.0",
+  "description": "powershell scripts for LTLTrack",
+  "main": "node-powershell.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ltltrack"
+  ],
+  "author": "bryan eliason",
+  "license": "ISC"
+}

@@ -1,0 +1,171 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace rrts.sharepoint.tracing
+{
+    public partial class TrackResponse
+    {
+
+        private ShipmentAddress shipmentOriginField;
+        /// <remarks/>
+        public ShipmentAddress ShipmentOrigin
+        {
+            get
+            {
+                return this.shipmentOriginField;
+            }
+            set
+            {
+                this.shipmentOriginField = value;
+            }
+        }
+
+        private ShipmentAddress shipmentDestinationField;
+        /// <remarks/>
+        public ShipmentAddress ShipmentDestination
+        {
+            get
+            {
+                return this.shipmentDestinationField;
+            }
+            set
+            {
+                this.shipmentDestinationField = value;
+            }
+        }
+
+        private ShipmentDetails detailsField;
+        /// <remarks/>
+        public ShipmentDetails Details
+        {
+            get
+            {
+                return this.detailsField;
+            }
+            set
+            {
+                this.detailsField = value;
+            }
+        }
+
+        private RRTSTerminal originTerminalField;
+        /// <remarks/>
+        public RRTSTerminal OriginTerminal
+        {
+            get
+            {
+                return this.originTerminalField;
+            }
+            set
+            {
+                this.originTerminalField = value;
+            }
+        }
+
+        private ShipmentComment[] commentsField;
+        /// <remarks/>
+        public ShipmentComment[] Comments
+        {
+            get
+            {
+                return this.commentsField;
+            }
+            set
+            {
+                this.commentsField = value;
+            }
+        }
+
+        private bool bOLReceivedField;
+        /// <remarks/>
+        public bool BOLReceived
+        {
+            get
+            {
+                return this.bOLReceivedField;
+            }
+            set
+            {
+                this.bOLReceivedField = value;
+            }
+        }
+
+        private bool pODReceivedField;
+        /// <remarks/>
+        public bool PODReceived
+        {
+            get
+            {
+                return this.pODReceivedField;
+            }
+            set
+            {
+                this.pODReceivedField = value;
+            }
+        }
+
+        private bool inspectionAvailableField;
+        /// <remarks/>
+        public bool InspectionAvailable
+        {
+            get
+            {
+                return this.inspectionAvailableField;
+            }
+            set
+            {
+                this.inspectionAvailableField = value;
+            }
+        }
+
+        private Mcleod.Shipment mcleodDetailField = new Mcleod.Shipment();
+        /// <remarks/>
+        public Mcleod.Shipment McleodDetail
+        {
+            get
+            {
+                return this.mcleodDetailField;
+            }
+            set
+            {
+                this.mcleodDetailField = value;
+            }
+        }
+    }
+
+    public partial class TrackViaHAWBRequest
+    {
+        private string hAWBField;
+        /// <remarks/>
+        public string HAWB
+        {
+            get
+            {
+                return this.hAWBField;
+            }
+            set
+            {
+                this.hAWBField = value;
+            }
+        }
+
+        private string internalUseField;
+        /// <remarks/>
+        public string InternalUse
+        {
+            get
+            {
+                return this.internalUseField;
+            }
+            set
+            {
+                this.internalUseField = value;
+            }
+        }
+    }
+
+
+}

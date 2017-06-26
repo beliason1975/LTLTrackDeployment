@@ -1,0 +1,43 @@
+
+select *
+from #Results
+--where [McLeodPickup#] in (
+--'23229585'
+--,'23250862'
+--,'23264290'
+--,'23264291'
+--,'23264292'
+--,'23264293'
+--,'23264294'
+--,'23264295'
+--)
+order by [McLeodPickup#], [CoyotePickup#], Pro
+--select * from #Results where [McLeodPickup#] = '23239733'
+--select * from #Results where [CoyotePickup#] = '23239733'
+--where pro = 277771531
+fg.pro_nbr = '410493282'
+
+
+select *
+from PUTRAN
+where DLPRO = 349429456
+
+select * from PROHDR
+where AJPRO# = 349429456
+
+select * from MFSTPRO
+where MFSTPRO.BCPRO = 349429456
+
+select * from PROSTA
+where ALPRO = 349429456
+
+
+select * from MFSTDTL
+where BBPRO = 349429456
+
+select * from MFSTHDR
+where BAMFST = 29560782
+
+select * from #CoyoteResults where [CoyotePickup#] = 10475326 or [McLeodPickup#] = 10475326
+select * from #CoyoteResults where [CoyotePickup#] = 23225145 or [McLeodPickup#] = 23225145
+

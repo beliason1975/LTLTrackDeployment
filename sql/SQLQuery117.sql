@@ -1,0 +1,3 @@
+
+
+ISNULL(Coyotepickuper, Mc)
